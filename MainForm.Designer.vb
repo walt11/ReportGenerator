@@ -33,6 +33,7 @@ Partial Class MainForm
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OpenPDFToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.AxAcroPDF1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -41,12 +42,15 @@ Partial Class MainForm
         '
         'AxAcroPDF1
         '
+        Me.AxAcroPDF1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.AxAcroPDF1.Enabled = True
         Me.AxAcroPDF1.Location = New System.Drawing.Point(219, 11)
         Me.AxAcroPDF1.Margin = New System.Windows.Forms.Padding(2)
         Me.AxAcroPDF1.Name = "AxAcroPDF1"
         Me.AxAcroPDF1.OcxState = CType(resources.GetObject("AxAcroPDF1.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxAcroPDF1.Size = New System.Drawing.Size(790, 591)
+        Me.AxAcroPDF1.Size = New System.Drawing.Size(936, 633)
         Me.AxAcroPDF1.TabIndex = 0
         '
         'TabControl1
@@ -56,7 +60,7 @@ Partial Class MainForm
         Me.TabControl1.Location = New System.Drawing.Point(0, 26)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(218, 589)
+        Me.TabControl1.Size = New System.Drawing.Size(218, 633)
         Me.TabControl1.TabIndex = 1
         '
         'TabPage1
@@ -66,7 +70,7 @@ Partial Class MainForm
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(210, 563)
+        Me.TabPage1.Size = New System.Drawing.Size(210, 607)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Recent"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -76,7 +80,7 @@ Partial Class MainForm
         Me.RecentListBox.FormattingEnabled = True
         Me.RecentListBox.Location = New System.Drawing.Point(3, 19)
         Me.RecentListBox.Name = "RecentListBox"
-        Me.RecentListBox.Size = New System.Drawing.Size(201, 537)
+        Me.RecentListBox.Size = New System.Drawing.Size(201, 576)
         Me.RecentListBox.TabIndex = 1
         '
         'Label1
@@ -103,13 +107,13 @@ Partial Class MainForm
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.AboutToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1018, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1166, 24)
         Me.MenuStrip1.TabIndex = 2
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'FileToolStripMenuItem
         '
-        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SettingsToolStripMenuItem})
+        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SettingsToolStripMenuItem, Me.OpenPDFToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
         Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.FileToolStripMenuItem.Text = "File"
@@ -126,11 +130,17 @@ Partial Class MainForm
         Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(52, 20)
         Me.AboutToolStripMenuItem.Text = "About"
         '
+        'OpenPDFToolStripMenuItem
+        '
+        Me.OpenPDFToolStripMenuItem.Name = "OpenPDFToolStripMenuItem"
+        Me.OpenPDFToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.OpenPDFToolStripMenuItem.Text = "Open PDF"
+        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1018, 613)
+        Me.ClientSize = New System.Drawing.Size(1166, 655)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.AxAcroPDF1)
         Me.Controls.Add(Me.MenuStrip1)
@@ -159,4 +169,5 @@ Partial Class MainForm
     Friend WithEvents RecentListBox As ListBox
     Friend WithEvents Label1 As Label
     Friend WithEvents AboutToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents OpenPDFToolStripMenuItem As ToolStripMenuItem
 End Class

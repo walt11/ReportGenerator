@@ -4,6 +4,7 @@ C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\bin\Debug\ReportG
 C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\bin\Debug\ReportGenerator.xml
 C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\bin\Debug\Interop.AcroPDFLib.dll
 C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.vbproj.AssemblyReference.cache
 C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.vbproj.SuggestedBindingRedirects.cache
 C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\obj\Debug\Interop.AcroPDFLib.dll
 C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\obj\Debug\AxInterop.AcroPDFLib.dll
@@ -16,3 +17,8 @@ C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\obj\Debug\ReportG
 C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.exe
 C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.xml
 C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.pdb
+C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\bin\Debug\ReportGenerator.exe.manifest
+C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\bin\Debug\ReportGenerator.application
+C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.TrustInfo.xml
+C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.exe.manifest
+C:\Users\John\Documents\GitHub\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.application
