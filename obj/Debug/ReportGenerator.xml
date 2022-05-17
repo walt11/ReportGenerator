@@ -22,5 +22,29 @@ ReportGenerator
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="M:ReportGenerator.SQLManager.GetConnectionString(System.String)">
+ <summary>
+ Function to retrieve the connection from the app.config
+ </summary>
+ <param name="conName">Name of the connectionString to retrieve</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ReportGenerator.SQLManager.GetBindingSource(System.Data.SqlClient.SqlCommand)">
+ <summary>
+ Returns a BindingSource, which is used with, for example, a DataGridView control
+ </summary>
+ <param name="cmd">"pre-Loaded" command, ready to be executed</param>
+ <returns>BindingSource</returns>
+ <remarks>Use this function to ease populating controls that use a BindingSource</remarks>
+</member>
+<member name="M:ReportGenerator.SQLManager.HandleConnection(System.Data.SqlClient.SqlConnection)">
+ <summary>
+ Method for handling the ConnectionState of 
+ the connection object passed to it
+ </summary>
+ <param name="conn">The SqlConnection Object</param>
+ <remarks></remarks>
+</member>
 </members>
 </doc>
