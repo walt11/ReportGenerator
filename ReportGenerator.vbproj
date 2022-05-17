@@ -29,7 +29,7 @@
     <UpdateUrl>https://raw.githubusercontent.com/walt11/Installers/main/ReportGenerator/</UpdateUrl>
     <ProductName>Report Generator</ProductName>
     <PublisherName>John Walter</PublisherName>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
